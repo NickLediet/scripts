@@ -8,8 +8,8 @@
 mkdir temp && cd temp
 
 # Get the installation script
-wget https://starkers.keybase.pub/snx_install_linux30.sh?dl=1 -O snx_install.sh
-
+#wget https://starkers.keybase.pub/snx_install_linux30.sh?dl=1 -O snx_install.sh
+cp ../vendor/snx_install_linux30.sh ./snx_install.sh
 # Setup 32-bit architecture support for debian based distros (Debian, Ubuntu, Mint...)
 sudo dpkg --add-architecture i386
 sudo apt update 
